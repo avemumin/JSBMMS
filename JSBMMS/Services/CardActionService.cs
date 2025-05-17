@@ -8,8 +8,8 @@ namespace JSBMMS.Services;
 public class CardActionService : ICardActionService
 {
   private readonly string file = "actionRuleTakNie.json";
+  private readonly string[] errorMessages = { "Brak dostępnego pliku", "Błędna struktura", "Plik" };
   private readonly List<ActionRule> _rule;
-
 
   public CardActionService()
   {
@@ -18,12 +18,9 @@ public class CardActionService : ICardActionService
 
   public Task<List<string>> CheckActions(CardDetails cardDetails)
   {
-    if (_rule.Count == 1 &&
-      (_rule[0].ActionName.Contains("Brak dostępnego pliku") ||
-      _rule[0].ActionName.Contains("Błędna struktura") ||
-      _rule[0].ActionName.Contains("Plik")))
+    if (_rule.Count == 1 && errorMessages.Any(msg => _rule[0].ActionName.Contains(msg)))
     {
-      return Task.FromResult(new List<string> { $"Błędny plik lub jego brak {file}" });
+      return Task.FromResult(new List<string> { $"Błędny plik JSON lub jego brak." });
     }
     return Task.FromResult(GetAllowedActions(cardDetails));
   }
@@ -56,7 +53,7 @@ public class CardActionService : ICardActionService
       }
 
       var rules = JsonSerializer.Deserialize<List<ActionRule>>(json);
-      if (rules is null)
+      if (rules is null || rules.Count == 0)
       {
         return new List<ActionRule>
         {
@@ -80,7 +77,7 @@ public class CardActionService : ICardActionService
     {
       return new List<string>();
     }
-    
+
     return _rule
         .Where(r =>
             r.CardTypeConditions?.TryGetValue(cardDetails.CardType.ToString(), out string typeCondition) == true &&

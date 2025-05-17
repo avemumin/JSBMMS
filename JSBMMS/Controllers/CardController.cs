@@ -26,8 +26,16 @@ public class CardController : ControllerBase
     }
 
     var actions = await _cardActionService.CheckActions(cardDetails);
-    
+    if (actions.FirstOrDefault() == "Błędny plik JSON lub jego brak.")
+    {
+      return BadRequest(new { Message = actions[0] });
+    }
 
-    return Ok(actions);
+    if (!actions.Any())
+    {
+      return BadRequest(new { Message = "Brak dostępnych akcji dla wskazanych parametrów." });
+    }
+
+    return Ok(new { Card = cardDetails, AllowedActions = actions });
   }
 }
