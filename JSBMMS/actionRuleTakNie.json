@@ -1,0 +1,223 @@
+[
+	{
+		"ActionName": "ACTION1",
+		"CartTypeConditions": {
+			"Prepaid": "TAK",
+			"Debit": "TAK",
+			"Credit": "TAK"
+		},
+		"CardStatusConditions": {
+			"Ordered": "NIE",
+			"Inactive": "NIE",
+			"Active": "TAK",
+			"Restricted": "NIE",
+			"Blocked": "NIE",
+			"Expired": "NIE",
+			"Closed": "NIE"
+		}
+	},
+	{
+		"ActionName": "ACTION2",
+		"CartTypeConditions": {
+			"Prepaid": "TAK",
+			"Debit": "TAK",
+			"Credit": "TAK"
+		},
+		"CardStatusConditions": {
+			"Ordered": "NIE",
+			"Inactive": "TAK",
+			"Active": "NIE",
+			"Restricted": "NIE",
+			"Blocked": "NIE",
+			"Expired": "NIE",
+			"Closed": "NIE"
+		}
+	},
+	{
+		"ActionName": "ACTION3",
+		"CartTypeConditions": {
+			"Prepaid": "TAK",
+			"Debit": "TAK",
+			"Credit": "TAK"
+		},
+		"CardStatusConditions": {
+			"Ordered": "TAK",
+			"Inactive": "TAK",
+			"Active": "TAK",
+			"Restricted": "TAK",
+			"Blocked": "TAK",
+			"Expired": "TAK",
+			"Closed": "TAK"
+		}
+	},
+	{
+		"ActionName": "ACTION4",
+		"CartTypeConditions": {
+			"Prepaid": "TAK",
+			"Debit": "TAK",
+			"Credit": "TAK"
+		},
+		"CardStatusConditions": {
+			"Ordered": "TAK",
+			"Inactive": "TAK",
+			"Active": "TAK",
+			"Restricted": "TAK",
+			"Blocked": "TAK",
+			"Expired": "TAK",
+			"Closed": "TAK"
+		}
+	},
+	{
+		"ActionName": "ACTION5",
+		"CartTypeConditions": {
+			"Prepaid": "NIE",
+			"Debit": "NIE",
+			"Credit": "TAK"
+		},
+		"CardStatusConditions": {
+			"Ordered": "TAK",
+			"Inactive": "TAK",
+			"Active": "TAK",
+			"Restricted": "TAK",
+			"Blocked": "TAK",
+			"Expired": "TAK",
+			"Closed": "TAK"
+		}
+	},
+	{
+		"ActionName": "ACTION6",
+		"CartTypeConditions": {
+			"Prepaid": "TAK",
+			"Debit": "TAK",
+			"Credit": "TAK"
+		},
+		"CardStatusConditions": {
+			"Ordered": "TAK_JESLNI_NIE_MA_PIN_TO_NIE",
+			"Inactive": "TAK_JESLNI_NIE_MA_PIN_TO_NIE",
+			"Active": "TAK_JESLNI_NIE_MA_PIN_TO_NIE",
+			"Restricted": "NIE",
+			"Blocked": "TAK_JSELI_PIN_NADANY",
+			"Expired": "NIE",
+			"Closed": "NIE"
+		}
+	},
+	{
+		"ActionName": "ACTION7",
+		"CartTypeConditions": {
+			"Prepaid": "TAK",
+			"Debit": "TAK",
+			"Credit": "TAK"
+		},
+		"CardStatusConditions": {
+			"Ordered": "TAK_JESLNI_BRAK_PIN",
+			"Inactive": "TAK_JESLNI_BRAK_PIN",
+			"Active": "TAK_JESLNI_BRAK_PIN",
+			"Restricted": "NIE",
+			"Blocked": "TAK_JSELI_PIN_NADANY",
+			"Expired": "NIE",
+			"Closed": "NIE"
+		}
+	},
+	{
+		"ActionName": "ACTION8",
+		"CartTypeConditions": {
+			"Prepaid": "TAK",
+			"Debit": "TAK",
+			"Credit": "TAK"
+		},
+		"CardStatusConditions": {
+			"Ordered": "TAK",
+			"Inactive": "TAK",
+			"Active": "TAK",
+			"Restricted": "NIE",
+			"Blocked": "TAK",
+			"Expired": "NIE",
+			"Closed": "NIE"
+		}
+	},
+	{
+		"ActionName": "ACTION9",
+		"CartTypeConditions": {
+			"Prepaid": "TAK",
+			"Debit": "TAK",
+			"Credit": "TAK"
+		},
+		"CardStatusConditions": {
+			"Ordered": "TAK",
+			"Inactive": "TAK",
+			"Active": "TAK",
+			"Restricted": "TAK",
+			"Blocked": "TAK",
+			"Expired": "TAK",
+			"Closed": "TAK"
+		}
+	},
+	{
+		"ActionName": "ACTION10",
+		"CartTypeConditions": {
+			"Prepaid": "TAK",
+			"Debit": "TAK",
+			"Credit": "TAK"
+		},
+		"CardStatusConditions": {
+			"Ordered": "TAK",
+			"Inactive": "TAK",
+			"Active": "TAK",
+			"Restricted": "NIE",
+			"Blocked": "NIE",
+			"Expired": "NIE",
+			"Closed": "NIE"
+		}
+	},
+	{
+		"ActionName": "ACTION11",
+		"CartTypeConditions": {
+			"Prepaid": "TAK",
+			"Debit": "TAK",
+			"Credit": "TAK"
+		},
+		"CardStatusConditions": {
+			"Ordered": "NIE",
+			"Inactive": "TAK",
+			"Active": "TAK",
+			"Restricted": "NIE",
+			"Blocked": "NIE",
+			"Expired": "NIE",
+			"Closed": "NIE"
+		}
+	},
+	{
+		"ActionName": "ACTION12",
+		"CartTypeConditions": {
+			"Prepaid": "TAK",
+			"Debit": "TAK",
+			"Credit": "TAK"
+		},
+		"CardStatusConditions": {
+			"Ordered": "TAK",
+			"Inactive": "TAK",
+			"Active": "TAK",
+			"Restricted": "NIE",
+			"Blocked": "NIE",
+			"Expired": "NIE",
+			"Closed": "NIE"
+		}
+	},
+	{
+		"ActionName": "ACTION13",
+		"CartTypeConditions": {
+			"Prepaid": "TAK",
+			"Debit": "TAK",
+			"Credit": "TAK"
+		},
+		"CardStatusConditions": {
+			"Ordered": "TAK",
+			"Inactive": "TAK",
+			"Active": "TAK",
+			"Restricted": "NIE",
+			"Blocked": "NIE",
+			"Expired": "NIE",
+			"Closed": "NIE"
+		}
+	}
+]
