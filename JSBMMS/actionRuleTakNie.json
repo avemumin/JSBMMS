@@ -1,7 +1,7 @@
 [
 	{
 		"ActionName": "ACTION1",
-		"CartTypeConditions": {
+		"CardTypeConditions": {
 			"Prepaid": "TAK",
 			"Debit": "TAK",
 			"Credit": "TAK"
@@ -18,7 +18,7 @@
 	},
 	{
 		"ActionName": "ACTION2",
-		"CartTypeConditions": {
+		"CardTypeConditions": {
 			"Prepaid": "TAK",
 			"Debit": "TAK",
 			"Credit": "TAK"
@@ -35,7 +35,7 @@
 	},
 	{
 		"ActionName": "ACTION3",
-		"CartTypeConditions": {
+		"CardTypeConditions": {
 			"Prepaid": "TAK",
 			"Debit": "TAK",
 			"Credit": "TAK"
@@ -52,7 +52,7 @@
 	},
 	{
 		"ActionName": "ACTION4",
-		"CartTypeConditions": {
+		"CardTypeConditions": {
 			"Prepaid": "TAK",
 			"Debit": "TAK",
 			"Credit": "TAK"
@@ -69,7 +69,7 @@
 	},
 	{
 		"ActionName": "ACTION5",
-		"CartTypeConditions": {
+		"CardTypeConditions": {
 			"Prepaid": "NIE",
 			"Debit": "NIE",
 			"Credit": "TAK"
@@ -86,7 +86,7 @@
 	},
 	{
 		"ActionName": "ACTION6",
-		"CartTypeConditions": {
+		"CardTypeConditions": {
 			"Prepaid": "TAK",
 			"Debit": "TAK",
 			"Credit": "TAK"
@@ -103,7 +103,7 @@
 	},
 	{
 		"ActionName": "ACTION7",
-		"CartTypeConditions": {
+		"CardTypeConditions": {
 			"Prepaid": "TAK",
 			"Debit": "TAK",
 			"Credit": "TAK"
@@ -120,7 +120,7 @@
 	},
 	{
 		"ActionName": "ACTION8",
-		"CartTypeConditions": {
+		"CardTypeConditions": {
 			"Prepaid": "TAK",
 			"Debit": "TAK",
 			"Credit": "TAK"
@@ -137,7 +137,7 @@
 	},
 	{
 		"ActionName": "ACTION9",
-		"CartTypeConditions": {
+		"CardTypeConditions": {
 			"Prepaid": "TAK",
 			"Debit": "TAK",
 			"Credit": "TAK"
@@ -154,7 +154,7 @@
 	},
 	{
 		"ActionName": "ACTION10",
-		"CartTypeConditions": {
+		"CardTypeConditions": {
 			"Prepaid": "TAK",
 			"Debit": "TAK",
 			"Credit": "TAK"
@@ -171,7 +171,7 @@
 	},
 	{
 		"ActionName": "ACTION11",
-		"CartTypeConditions": {
+		"CardTypeConditions": {
 			"Prepaid": "TAK",
 			"Debit": "TAK",
 			"Credit": "TAK"
@@ -188,7 +188,7 @@
 	},
 	{
 		"ActionName": "ACTION12",
-		"CartTypeConditions": {
+		"CardTypeConditions": {
 			"Prepaid": "TAK",
 			"Debit": "TAK",
 			"Credit": "TAK"
@@ -205,7 +205,7 @@
 	},
 	{
 		"ActionName": "ACTION13",
-		"CartTypeConditions": {
+		"CardTypeConditions": {
 			"Prepaid": "TAK",
 			"Debit": "TAK",
 			"Credit": "TAK"

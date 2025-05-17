@@ -28,6 +28,6 @@ public class CardController : ControllerBase
     var actions = await _cardActionService.CheckActions(cardDetails);
     
 
-    return NoContent();
+    return Ok(actions);
   }
 }
