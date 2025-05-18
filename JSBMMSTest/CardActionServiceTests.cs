@@ -2,8 +2,7 @@
 using JSBMMS.Services;
 using JSBMMS.Services.Interfaces;
 using Moq;
-using NuGet.Frameworks;
-
+[assembly: CollectionBehavior(DisableTestParallelization = true)]
 namespace JSBMMSTest;
 
 public class CardActionServiceTests : IDisposable
