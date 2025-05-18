@@ -39,7 +39,7 @@ public class CardService : ICardService
                   CardNumber: cardNumber,
                   CardType: cardType,
                   CardStatus: cardStatus,
-                  IsPinSet: cardIndex % 2 == 1));
+                  IsPinSet: cardIndex % 2 == 0));
           cardIndex++;
         }
       }
